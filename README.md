@@ -40,9 +40,11 @@ What truly sets MMVC apart is its ability to harness the latest PHP capabilities
 BitsHost Team
 
 Diagram:
- (https://github.com/BitsHost/BitsHost-MMVC/assets/23263143/e15ae7f8-e37e-41e3-8c0b-5eab38b6a425)
+![Diagram](https://github.com/BitsHost/BitsHost-MMVC/assets/23263143/2162ae66-bf4d-4cdd-8a34-2e7dccd0d5de)
+
 
 
  File Structure:
-(https://github.com/BitsHost/BitsHost-MMVC/assets/23263143/62148f96-02b1-40ed-8f8c-663a5038f1e0)
+
+![FileStructure](https://github.com/BitsHost/BitsHost-MMVC/assets/23263143/ee1068e0-d9c2-4436-b0a5-c13a619b7c56)
 
