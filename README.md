@@ -32,8 +32,7 @@ But why MMVC specifically?
 
 2. **Language Freedom:** Perhaps most importantly, you have the freedom to write your modules in your preferred language, whether it's PHP, JS, PYTHON, or modern technologies like TS and React. There are no constraints on your creativity.
 
-3. **Development-Centric:** MMVC was designed with development in mind. You can steer your project i![Diagram]
-n any direction you desire, utilizing your own autoloader or composer autoload. Composer/packagist usage is optional, not obligatory.
+3. **Development-Centric:** MMVC was designed with development in mind. You can steer your project in any direction you desire, utilizing your own autoloader or composer autoload. Composer/packagist usage is optional, not obligatory.
 
 What truly sets MMVC apart is its ability to harness the latest PHP capabilities without constraint. No more endless loops, as this framework liberates your development possibilities.
 
