@@ -23,9 +23,9 @@ $_SESSION["username"] = "defaultAppUser";
 /////////////////////////////////////
 
 define('THIS_DIR', str_replace("\\", "/", dirname(__FILE__, 2)));
-define('BASE_URL', 'http://localhost/crud/MVC/mvc');
+define('BASE_URL', 'https://yoursite.com');
 
-$sitePath = "/crud/MVC/mvc";
+$sitePath = "";
 //should be empty if domain location is root; e.g. public_html
 $url = $_SERVER['REQUEST_URI'];
 $url = str_replace($sitePath, "", $url);
