@@ -1,0 +1,26 @@
+{
+    "name": "bitshost/mvc",
+    "description": "simple mvc with router-routes",
+    "type": "project",
+    "license": "free",
+    "authors": [
+        {
+            "name": "bitshost"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Html\\": "common/",
+            "MVC\\": "etc/",
+            "Users\\": "modules/users/",
+            "Test\\": "modules/test/",
+            "Test\\Routes\\": "modules/test/routes/",
+            "Moda\\": "modules/moda/",
+            "Moda\\Routes\\": "modules/moda/routes/",
+            "Suba\\": "modules/moda/modules/suba/",
+            "Suba\\Routes\\": "modules/moda/modules/suba/routes/"
+        }
+    }
+}
