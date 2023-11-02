@@ -25,7 +25,7 @@ class Router
     public function addRoute($route, $className, $methodName)
     {
         $this->routes[$route] = ['className' => $className, 'methodName' => $methodName];
-        //print_r($this->routes);
+        
     }
 
     /**
@@ -44,9 +44,14 @@ class Router
             $database = new Database();
             //$db       = $database->getConnection();
 
+
+            //middleware before
+
             //initialize class->method
             $className = new $className();
             $className->$methodName();
+
+            //middleware after
         }
         else {
 

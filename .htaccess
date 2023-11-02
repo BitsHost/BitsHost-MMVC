@@ -5,8 +5,8 @@ RewriteCond %{REQUEST_FILENAME} !-f
 #RewriteRule ^ - [R=404,L]
 #RewriteRule ^ - [R=403,L]
 
-#ErrorDocument 404   http://localhost/crud/MVC/mvc
-#ErrorDocument 403   http://localhost/crud/MVC/zeta
+#ErrorDocument 404
+#ErrorDocument 403
 
 
 #level One 

@@ -4,7 +4,8 @@
  *
  * Copyright (c) 2023 BitsHost
  */
-//add all your modules routes
+
+//add Routes for your modules
 
 use Test\Routes\TestRoutes;
 

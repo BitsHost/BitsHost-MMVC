@@ -31,7 +31,7 @@ class TestRoutes extends Routes
         $router->addRoute('/test.php', TestController::class, 'display');
         $router->addRoute('/test', TestController::class, 'display');
         $router->addRoute('/test/subpage', TestController::class, 'display');
-        //GET parameters, check .htacces
+        //GET parameters, look at .htaccess
         //one parameter
         $router->addRoute('/test-one', TestController::class, 'display');
         $router->addRoute('/test-page-one', TestController::class, 'display');
@@ -39,12 +39,12 @@ class TestRoutes extends Routes
         $router->addRoute('/test-one/two', TestController::class, 'display');
         $router->addRoute('/test-page-one/two', TestController::class, 'display');
 
-        //test with an array of values e.g. you have products, articles, etc.
-        //you can collect data from Database here
-        //avoid adding:
+        // Test with an array of values, such as goods, articles, and so on.
+        // You may get data from the database here.
+        // avoid including:
         // $router->addRoute('test-a0', TestController::class, 'display');
         // $router->addRoute('test-a1', TestController::class, 'display');...
-        // ...one by one
+        // ...one after the other
 
         $i           = 0;
         $routesArray = [];

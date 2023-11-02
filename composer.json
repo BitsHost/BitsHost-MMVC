@@ -1,11 +1,11 @@
 {
-    "name": "bitshost/mvc",
-    "description": "simple mvc with router-routes",
+    "name": "bitshost/mmvc",
+    "description": "Modular Model View Controller System with router. BitsHost-MMVC",
     "type": "project",
-    "license": "free",
+    "license": "MIT License/Free",
     "authors": [
         {
-            "name": "bitshost"
+            "name": "BitsHost"
         }
     ],
     "minimum-stability": "beta",

@@ -27,7 +27,7 @@ class Routes
         $router = new Router();
 
         //-1. default system routes
-        $router->addRoute('abba', TestController::class, 'display');
+        $router->addRoute('/abba', TestController::class, 'display');
         ///////////////////route, class, function()////////////////
 
 
@@ -38,7 +38,7 @@ class Routes
         //$userR = new UserRoutes();
         //$userR->Routes($router);
 
-        //adding all modules intialization in 1 file
+        //combining all module initialization into a single file
         include "./etc/InitMods.php";
 
 

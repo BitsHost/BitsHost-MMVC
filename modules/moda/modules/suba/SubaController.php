@@ -29,7 +29,7 @@ class SubaController extends Controller
 
         }
         else {
-            echo " Not Logged! Something else.";
+            echo " Not Logged In! Something else.";
         }
 
         $this->render('moda/modules/suba/SubaView', ['users' => $users]);

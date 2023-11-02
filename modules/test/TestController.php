@@ -37,7 +37,7 @@ class TestController extends Controller
 
         }
         else {
-            echo " Not Logged! Something else.";
+            echo " Not Logged In! Something else.";
         }
 
         $this->render('moda/ModaView', ['users' => $users]);

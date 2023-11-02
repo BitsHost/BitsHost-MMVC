@@ -7,7 +7,7 @@
 namespace Moda\Routes;
 use MVC\Routes;
 use Moda\ModaController;
-//use MVC\Controllers\ModaController;
+
 
 /**
  * ModaRoutes

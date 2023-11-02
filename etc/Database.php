@@ -16,7 +16,7 @@ use PDOException;
 class Database
 {
     private $host = "127.0.0.1";
-    private $database_name = "faca";
+    private $database_name = "";
     private $username = "root";
     private $password = "";
     public $conn;
