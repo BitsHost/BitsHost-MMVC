@@ -7,8 +7,8 @@
 
 namespace MVC;
 
-use Test\TestController; //doar pentru test - o sa avem modul special
-//use Users\UserRoutes;
+use Test\TestController;
+
 
 /**
  * Routes
