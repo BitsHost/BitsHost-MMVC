@@ -11,7 +11,7 @@ Rasmus Lerdorf: PHP Frameworks all suck!
 
 https://www.youtube.com/watch?v=DuB6UjEsY_Y&ab_channel=matperino
 
-Introducing MODULAR MMVC - Empowering Your Development
+Introducing MODULAR MVC - Empowering Your Development
 
 In the realm of modern frameworks, it often feels like they do everything except what truly matters. These frameworks tend to add layers of abstraction that demand you to learn new skills and pathways whenever you decide to switch. They also tend to clutter themselves with superfluous options, solving simple problems in needlessly convoluted ways.
 
