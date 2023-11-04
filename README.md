@@ -9,10 +9,14 @@
 
  */
 
+////////////////////////////////////////////////////////////////
 Rasmus Lerdorf: PHP Frameworks all suck!
-
 https://www.youtube.com/watch?v=DuB6UjEsY_Y&ab_channel=matperino
+////////////////////////////////////////////////////////////////
 
+
+BistHost‐MMVC. PHP MVC with modules. Modular MVC(Model, View, Controller). Hierarchical Model‐View‐Controller (HMVC).
+https://github.com/BitsHost/BitsHost-MMVC/wiki/BistHost%E2%80%90MMVC.-PHP-MVC-with-modules.-Modular-MVC(Model,-View,-Controller).-Hierarchical-Model%E2%80%90View%E2%80%90Controller-(HMVC)
 
 
 
