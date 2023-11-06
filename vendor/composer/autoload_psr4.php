@@ -13,8 +13,6 @@ return array(
     'Suba\\' => array($baseDir . '/modules/moda/modules/suba'),
     'Moda\\Routes\\' => array($baseDir . '/modules/moda/routes'),
     'Moda\\' => array($baseDir . '/modules/moda'),
-    'MVC\\Models\\' => array($baseDir . '/src/Models'),
-    'MVC\\Controllers\\' => array($baseDir . '/src/Controllers'),
     'MVC\\' => array($baseDir . '/etc'),
     'Html\\' => array($baseDir . '/common'),
 );

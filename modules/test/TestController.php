@@ -14,14 +14,14 @@ use Test\TestView;
 /**
  * TestController
  */
-class TestController extends Controller
+class TestController
 {
     /**
      * display
      *
      * @return void
      */
-    public function display()
+    public function display($request)
     {
         $users = [
             new TestModel('John Doe', 'john@example.com'),
@@ -40,10 +40,10 @@ class TestController extends Controller
             echo " Not Logged In! Something else.";
         }
 
-        $this->render('moda/ModaView', ['users' => $users]);
+        $view = new TestView();
+        $view->View($request, $users);
 
-        //$newView = new TestView();
-        //$newView->view();
+
 
     }
 

@@ -28,6 +28,7 @@ class TestRoutes extends Routes
     {
 
         $router->addRoute('/', TestController::class, 'display');
+        $router->addRoute('/index.php', TestController::class, 'display');
         $router->addRoute('/test.php', TestController::class, 'display');
         $router->addRoute('/test', TestController::class, 'display');
         $router->addRoute('/test/subpage', TestController::class, 'display');

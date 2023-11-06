@@ -34,7 +34,7 @@ class Router
      * @param  mixed $url
      * @return void
      */
-    public function dispatcher($url)
+    public function dispatcher($url, $request)
     {
         if (array_key_exists($url, $this->routes)) {
             $className  = $this->routes[$url]['className'];
@@ -48,8 +48,10 @@ class Router
             //middleware before
 
             //initialize class->method
+
             $className = new $className();
-            $className->$methodName();
+            $className->$methodName($request);
+
 
             //middleware after
         }

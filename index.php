@@ -12,32 +12,19 @@
 require 'vendor/autoload.php';
 
 use MVC\Routes;
+use MVC\Config;
 
-/////////////////////////////////////
-//error
-error_reporting(0);
-/////////////////////////////////////
-
-//initialize session/test////////////
-session_start();
-$_SESSION["username"] = "defaultAppUser";
-//session_unset(); // logout
-//session_write_close();
-/////////////////////////////////////
-
-define('THIS_DIR', str_replace("\\", "/", dirname(__FILE__, 2)));
-define('BASE_URL', 'http://localhost/crud/MVC/mvc');
-
-$sitePath = "/crud/MVC/mvc";
-//should be empty if domain location is root; e.g. public_html
 $url = $_SERVER['REQUEST_URI'];
-$url = str_replace($sitePath, "", $url);
+$request = $_SERVER['REQUEST_METHOD'];
 
-if (strpos($url, "?") !== false) {
-    $url = substr($url, 0, strpos($url, "?"));
-}
+$config = new Config();
+$config->initConfig();
+$sitePath = $config->getSitePath();
+
+$urlWithoutSitePath = $config->cleanUrlSitePath($sitePath, $url);
+$url = $config->cleanUrlQuestionMark($urlWithoutSitePath);
 
 
 $start = new Routes();
-$start->startRoutes($url);
+$start->startRoutes($url, $request);
 

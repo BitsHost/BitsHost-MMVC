@@ -22,7 +22,7 @@ class Routes
      * @param  mixed $url
      * @return void
      */
-    public function startRoutes($url)
+    public function startRoutes($url, $request)
     {
         $router = new Router();
 
@@ -47,7 +47,7 @@ class Routes
 
         #c-3. call Dispatcher
 
-        $router->dispatcher($url);
+        $router->dispatcher($url, $request);
 
 
     }
