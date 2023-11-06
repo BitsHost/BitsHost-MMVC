@@ -7,7 +7,7 @@
 
 namespace Test;
 
-use MVC\Controller;
+
 use Test\TestModel;
 use Test\TestView;
 
