@@ -11,9 +11,11 @@ namespace MVC;
  * Config
  */
 class Config
-{
-    //should be empty if domain location is root; e.g. public_html
-    public $sitePath = "";
+{    
+    //Application directory
+    //should be empty if domain location is root; e.g. public_html => $sitePath = "";
+    //else - if domain location is: public_html/app => $sitePath = "/app"; public_html/folder/app => $sitePath = "/folder/app"
+    public $sitePath = ""; //Application directory
     /**
      * initConfig
      *
@@ -27,7 +29,11 @@ class Config
         /////////////////////////////////////
 
         define('THIS_DIR', str_replace("\\", "/", dirname(__FILE__, 2)));
-        define('BASE_URL', 'https://www.yoursite.com');
+
+
+        //Application URL
+        //your domain address => https://www.yourdomain.com or https://yourdomain.com
+        define('BASE_URL', 'https://www.yourdomain.com ');
 
         //initialize session/test////////////
         session_start();

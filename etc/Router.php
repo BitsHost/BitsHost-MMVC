@@ -25,7 +25,7 @@ class Router
     public function addRoute($route, $className, $methodName)
     {
         $this->routes[$route] = ['className' => $className, 'methodName' => $methodName];
-        
+
     }
 
     /**
@@ -56,8 +56,12 @@ class Router
             //middleware after
         }
         else {
+            ?>
+            <meta http-equiv="refresh" content="3; URL='<?php echo BASE_URL ?>'" />
+            <?php
+            include './common/404.php';
+            //throw new \Exception("No route found for URI: $url");
 
-            throw new \Exception("No route found for URI: $url");
 
 
         }

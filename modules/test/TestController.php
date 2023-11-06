@@ -7,7 +7,6 @@
 
 namespace Test;
 
-
 use Test\TestModel;
 use Test\TestView;
 
