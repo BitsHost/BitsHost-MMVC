@@ -3,8 +3,18 @@ namespace Test;
 
 use Html\CommonView;
 
+/**
+ * Testview
+ */
 class Testview
-{
+{    
+    /**
+     * View
+     *
+     * @param  mixed $request
+     * @param  mixed $users
+     * @return void
+     */
     public function View($request, $users)
     {
         $newView = new commonView();

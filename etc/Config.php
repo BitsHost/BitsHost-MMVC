@@ -33,7 +33,7 @@ class Config
 
         //Application URL
         //your domain address => https://www.yourdomain.com or https://yourdomain.com
-        define('BASE_URL', 'https://www.yourdomain.com ');
+        define('BASE_URL', 'https://www.yourdomain.com');
 
         //initialize session/test////////////
         session_start();

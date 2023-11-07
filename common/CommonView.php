@@ -27,6 +27,7 @@ class CommonView
                             <li><a href="<?php echo BASE_URL; ?>/test-page-one/two">👩‍👩‍👧‍👧 2 Parameters(GET)</a></li>
                             <li><a href="<?php echo BASE_URL; ?>/moda">👩‍👩‍👧‍👧 Moda</a></li>
                             <li><a href="<?php echo BASE_URL; ?>/suba">👩‍👩‍👧‍👧 Suba</a></li>
+                            <li><a href="<?php echo BASE_URL; ?>/error">👩‍👩‍👧‍👧 Error Page</a></li>
 
                         </ul>
                 </ul>

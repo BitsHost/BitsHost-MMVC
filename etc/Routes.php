@@ -38,7 +38,7 @@ class Routes
         //$userR = new UserRoutes();
         //$userR->Routes($router);
 
-        //combining all module initialization into a single file
+        //combining all modules initialization into a single file
         include "./etc/InitMods.php";
 
 
