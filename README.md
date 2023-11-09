@@ -1,4 +1,4 @@
-# BitsHost-MMVC
+# BitsHost MMVC
  Modular MODEL VIEW CONTROLLER with Router
 
  /*
