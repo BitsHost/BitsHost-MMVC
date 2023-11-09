@@ -20,7 +20,7 @@ https://www.youtube.com/watch?v=DuB6UjEsY_Y&ab_channel=matperino
 
 
 
-BistHost‐MMVC. PHP MVC with modules. Modular MVC(Model, View, Controller). Hierarchical Model‐View‐Controller (HMVC).	
+BistHost MMVC. PHP MVC with modules. Modular MVC(Model, View, Controller). Hierarchical Model‐View‐Controller (HMVC).	
 
 (https://github.com/BitsHost/BitsHost-MMVC/wiki)		
 
