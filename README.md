@@ -28,7 +28,7 @@ BistHost MMVC. PHP MVC with modules. Modular MVC(Model, View, Controller). Hiera
 
 													
 
-Introducing MODULAR MMVC - Empowering Your Development
+Introducing MODULAR MVC - Empowering Your Development
 
 In the realm of modern frameworks, it often feels like they do everything except what truly matters. These frameworks tend to add layers of abstraction that demand you to learn new skills and pathways whenever you decide to switch. They also tend to clutter themselves with superfluous options, solving simple problems in needlessly convoluted ways. 
 
